@@ -5,9 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bat Ball Stamp Game</title>
     <link rel="stylesheet" href="cricket.css">
-   
-     
-    
 </head>
 <body>
    <div class="game-conatiner">
@@ -17,24 +14,25 @@
     let resultMsg;
 
      if(computerChoice === 'ball'){
-       resultMsg='you won';
+       resultMsg='you win✨';
      }else if(computerChoice=== 'bat'){
-        resultMsg=`its a tie`;
+        resultMsg=`its a tie🤝`;
      }else if(computerChoice==='stump'){
-        resultMsg='computer has won';
+        resultMsg='computer wins🖥️';
      }
-    alert(`you have chosen a bat....computer choice is${computerChoice}....ans ${resultMsg}`)
+    alert(`you have chosen a bat....computer choice is  ${computerChoice}....ans ${resultMsg}`)
      ">Bat</button>
     <button 
      onclick="generatecomputerChoice();
     
     
      if(computerChoice ==='ball'){
-       resultMsg='its a tie';
+       resultMsg='its a tie🤝';
      }else if(computerChoice=== 'stump'){
-        resultMsg=`you won`;
+        resultMsg=`you win✨`;
+   
      }else if(computerChoice==='bat'){
-        resultMsg='computer has won';
+        resultMsg='computer wins🖥️';
      }
      alert(`you have choosen a ball...computer choice is ${computerChoice}ans..... ${resultMsg}`)">Ball</button>
     <button onclick="generatecomputerChoice();
@@ -42,13 +40,13 @@
  
 
      if(computerChoice ==='ball'){
-       resultMsg='computer has won';
+       resultMsg='computer wins🖥️';
      }else if(computerChoice=== 'stump'){
-        resultMsg=`its a tie`;
+        resultMsg=`its a tie🤝`;
      }else if(computerChoice==='bat'){
-        resultMsg='you won';
+        resultMsg='you win✨';
      }
-     alert(`you have choosen a stump....computer choice is${computerChoice} ans.... ${resultMsg}`);
+     alert(`you have choosen a stump....computer choice is ${computerChoice} ans.... ${resultMsg}`);
     ">stump</button>
     </div>
     <script>
@@ -70,4 +68,5 @@
     </script>
 </body>
 </html>
+
 
