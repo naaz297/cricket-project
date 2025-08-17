@@ -1,14 +1,28 @@
-        body{
+body{
+    margin: 0;
+    height:90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     background-image: url(image.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    
 }
 
-.game-container{
-        text-align:center;
-        height:50px;
-        width:50px;
+.game-conatiner{
+    text-align: center;
+    font-size: 48px;
+    text-decoration: underline;
+    
+  
 }
-
+button{
+    font-size: 40px;
+    padding: 15px 30px;
+    margin:15px;
+    border-radius: 20px;
+    background-color: lavenderblush;
+}
