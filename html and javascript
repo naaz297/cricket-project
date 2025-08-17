@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bat Ball Stamp Game</title>
+    <link rel="stylesheet" href="cricket.css">
+</head>
+<body>
+    <h1>Bat Ball Game🏏</h1>
+    <button onclick="generatecomputerChoice();
+    
+    let resultMsg;
+
+     if(computerChoice === 'ball'){
+       resultMsg='user won';
+     }else if(computerChoice=== 'bat'){
+        resultMsg=`its a tie`;
+     }else if(computerChoice==='stump'){
+        resultMsg='computer has won';
+     }
+    alert(`you have chosen a bat....computer choice is${computerChoice}....ans ${resultMsg}`)
+     ">Bat</button>
+    <button 
+     onclick="generatecomputerChoice();
+    
+    
+     if(computerChoice ==='ball'){
+       resultMsg='its a tie';
+     }else if(computerChoice=== 'stump'){
+        resultMsg=`user won`;
+     }else if(computerChoice==='bat'){
+        resultMsg='computer has won';
+     }
+     alert(`you have choosen a ball...computer choice is ${computerChoice}ans..... ${resultMsg}`)">Ball</button>
+    <button onclick="generatecomputerChoice();
+    
+ 
+
+     if(computerChoice ==='ball'){
+       resultMsg='user won';
+     }else if(computerChoice=== 'stump'){
+        resultMsg=`its a tie`;
+     }else if(computerChoice==='bat'){
+        resultMsg='computer has won';
+     }
+     alert(`you have choosen a stump....computer choice is${computerChoice} ans.... ${resultMsg}`);
+    ">stump</button>
+    <script>
+        let computerChoice;
+        function generatecomputerChoice(){
+              let randomNumber=Math.random()*3;
+       
+    if(randomNumber >0  && randomNumber <=1){
+        computerChoice='bat';
+    //console.log('computer choice is bat');
+     }else if(randomNumber >1 && randomNumber <=2){
+           computerChoice='ball';
+           //  console.log('computer choice is ball');
+     }else{
+              computerChoice='stump';
+           // console.log('computer choice is stamp');
+     }
+        }
+    </script>
+</body>
+</html>
