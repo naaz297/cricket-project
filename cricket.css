@@ -5,10 +5,10 @@
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
-h1{
-    text-align: center;
-}
+
 .game-container{
         text-align:center;
+        height:50px;
+        width:50px;
 }
 
